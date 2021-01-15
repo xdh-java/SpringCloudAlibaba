@@ -1,0 +1,10 @@
+server:
+  port: 8091
+#随机算法
+#provider:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#权重算法配置：
+provider:
+  ribbon:
+    NFLoadBalancerRuleClassName:  com.java.xdh.config.NacosWeightedRule

@@ -3,7 +3,17 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      filter:
+        enabled: false
   application:
     name: provider
 server:
-  port: 8082
+  port: 8016
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
