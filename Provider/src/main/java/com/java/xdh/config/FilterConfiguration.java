@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @time 2021/1/14 0014 17:05
  * @description 这是我的代码风格
  */
-@Configuration
+//@Configuration
 public class FilterConfiguration {
 
     @Bean

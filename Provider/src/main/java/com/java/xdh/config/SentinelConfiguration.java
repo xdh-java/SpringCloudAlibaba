@@ -11,7 +11,7 @@ import javax.annotation.PostConstruct;
  * @description 这是我的代码风格
  */
 //主要是让RequestOriginParserDefinition这个配置类生效而已。
-@Configuration
+/*@Configuration*/
 public class SentinelConfiguration {
     @PostConstruct
     public void init(){

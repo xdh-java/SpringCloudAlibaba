@@ -17,3 +17,7 @@ management:
     web:
       exposure:
         include: '*'
+rocketmq:
+  name-server: 192.168.206.129:9876
+  producer:
+    group: myprovider

@@ -8,3 +8,5 @@ server:
 provider:
   ribbon:
     NFLoadBalancerRuleClassName:  com.java.xdh.config.NacosWeightedRule
+rocketmq:
+  name-server: 192.168.206.129:9876
